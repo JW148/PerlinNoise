@@ -11,7 +11,7 @@ let interval;
 
 function preload() {
   for(i=1; i<19; i++){
-    imgs.push(loadImage(`/images/image ${i}.jpg`));
+    imgs.push(loadImage(`images/image ${i}.jpg`));
   }
 }
 
