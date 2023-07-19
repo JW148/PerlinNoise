@@ -10,26 +10,8 @@ let arrIndex = 0;
 let interval;
 
 function preload() {
-  // imgs.push(loadImage("image "));
-  // imgs.push(loadImage("trippy (2).jpg"));
-  // imgs.push(loadImage("trippy (3).jpg"));
-  // imgs.push(loadImage("trippy (4).jpg"));
-  // imgs.push(loadImage("trippy (5).jpg"));
-  // imgs.push(loadImage("trippy (6).jpg"));
-  // imgs.push(loadImage("trippy (7).jpg"));
-  // imgs.push(loadImage("trippy (8).jpg"));
-  // imgs.push(loadImage("trippy (9).jpg"));
-  // imgs.push(loadImage("trippy (10).jpg"));
-  // imgs.push(loadImage("trippy (11).jpg"));
-  // imgs.push(loadImage("trippy (12).jpg"));
-  // imgs.push(loadImage("trippy (13).jpg"));
-  // imgs.push(loadImage("trippy (14).jpg"));
-  // imgs.push(loadImage("trippy (15).jpg"));
-  // imgs.push(loadImage("trippy (16).jpg"));
-  // imgs.push(loadImage("trippy (17).jpg"));
-  // imgs.push(loadImage("trippy (18).jpg"));
   for(i=1; i<19; i++){
-    imgs.push(loadImage(`images\image ${i}.jpg`));
+    imgs.push(loadImage(`images/image ${i}.jpg`));
   }
 }
 
